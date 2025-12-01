@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## My R Package
 
-For my R package I used an NFL combine dataset and created functions and plots to analyze players and to view players combine stats.Shown below are some of the functions in the packages. The player function is to show the s3 
+For my R package I used an NFL combine dataset and created functions and plots to analyze players and to view players combine stats.Shown below are some of the functions in the packages.
 
 ```{r}
 library(nflcombineR)
@@ -38,3 +38,4 @@ plot_bench()
 ```
 
 With this package you can find more information about NFL players combine history as well see averages of positions in the combine and even compare players combine stats against one another. It is built in that if you put a player in that is not in the data that it will inform you that the player is not in the data and the function will not run through. I chose MIT LICENSE because it allows use of my package in broad use. 
+
